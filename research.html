@@ -104,6 +104,10 @@
         <div class="paper__links">
           <a href="jobmarket/04_model_confidence_set_for_Stata.pdf" target="_blank" rel="noopener noreferrer">PDF</a>
         </div>
+        <details class="paper__abstract-details">
+          <summary>Abstract</summary>
+          <p class="paper__abstract">This article introduces <em>mcs</em>, a Stata command for implementing the model confidence set procedure of Hansen, Lunde, and Nason (2011). The procedure starts from a user-specified set of competing models and returns a subset that contains the <em>best</em> model, or models, with a chosen level of confidence, where <em>best</em> is defined by a user-supplied loss function. Unlike procedures that select a single winning model, the model confidence set explicitly recognizes that the data may not be informative enough to separate closely performing alternatives. The command works directly with loss variables stored in a Stata dataset, supports the commonly used <em>T</em><sub>max</sub> and <em>T</em><sub>R</sub> statistics, implements bootstrap inference, reports the sequential elimination path, and stores the resulting superior set in returned results. The command is useful for forecast comparison, model selection, and any setting in which several competing procedures can be evaluated by a common loss criterion. We illustrate the syntax and output using reproducible examples and discuss practical choices concerning the confidence level, loss functions, and bootstrap settings.</p>
+        </details>
       </article>
 
       <section class="list-block reveal" aria-labelledby="wip-title">
