@@ -9,8 +9,9 @@
   --bg-top: #e8eef5;
   --bg-mid: #f3f1ec;
   --bg-bottom: #dfe8e7;
-  --max: 44rem;
-  --wide: 58rem;
+  --content: 46rem;
+  --max: var(--content);
+  --wide: var(--content);
   --radius: 2px;
   --font-display: "Literata", "Iowan Old Style", "Palatino Linotype", serif;
   --font-body: "IBM Plex Sans", "Helvetica Neue", sans-serif;
@@ -82,7 +83,7 @@ img {
 .site-header__inner,
 .site-main,
 .site-footer__inner {
-  width: min(100% - 2rem, var(--wide));
+  width: min(100% - 2.5rem, var(--content));
   margin-inline: auto;
 }
 
@@ -156,7 +157,8 @@ img {
   flex-direction: column;
   justify-content: center;
   padding: 3.5rem 0 3rem;
-  max-width: var(--max);
+  max-width: none;
+  width: 100%;
 }
 
 .hero__name {
@@ -227,13 +229,11 @@ img {
   color: var(--accent-hover);
 }
 
-.section {
-  padding: 2.75rem 0 0;
-  max-width: var(--max);
-}
-
+.section,
 .section--wide {
-  max-width: var(--wide);
+  padding: 2.75rem 0 0;
+  max-width: none;
+  width: 100%;
 }
 
 .section__title {
