@@ -1,13 +1,13 @@
-## Martin Fankhauser
+# Martin Fankhauser
 
-Hi, my name is Martin and I am a PhD student in Economics at the Bocconi university in Milan.
+Academic homepage for [martin-fankhauser.github.io](https://martin-fankhauser.github.io/).
 
-### Short bio
+Static HTML/CSS/JS site (GitHub Pages). Content mirrors the Google Site at [sites.google.com/view/martin-fankhauser](https://sites.google.com/view/martin-fankhauser/home). Job-market PDFs live under `jobmarket/`.
 
-- Phd in Economics (Bocconi University)
-- Msc in Economics (London School of Economics)
-- Bsc in Economics (Ludwigs-Maximilians-University Munich)
+## Pages
 
-### Research interest
-
-I am interested in theoretical econometrics, in particular I am trying to contribute to the literature around conformal inference and misspecification issues in time series models.
+- `index.html` — Home
+- `research.html` — Research
+- `cv.html` — CV (summary + PDF)
+- `teaching.html` — Teaching
+- `contact.html` — Contact
