@@ -10,4 +10,3 @@ Static HTML/CSS/JS site (GitHub Pages). Content mirrors the Google Site at [site
 - `research.html` — Research
 - `cv.html` — CV (summary + PDF)
 - `teaching.html` — Teaching
-- `contact.html` — Contact
