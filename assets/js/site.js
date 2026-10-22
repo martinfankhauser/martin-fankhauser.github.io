@@ -21,3 +21,23 @@
 
   nodes.forEach((el) => observer.observe(el));
 })();
+
+(() => {
+  document.querySelectorAll(".paper__presented-toggle").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const presented = btn.closest(".paper__presented");
+      const rest = presented && presented.querySelector(".paper__presented-rest");
+      if (!rest) return;
+      const expanded = btn.getAttribute("aria-expanded") === "true";
+      if (expanded) {
+        rest.hidden = true;
+        btn.setAttribute("aria-expanded", "false");
+        btn.textContent = "…More";
+      } else {
+        rest.hidden = false;
+        btn.setAttribute("aria-expanded", "true");
+        btn.textContent = "…Less";
+      }
+    });
+  });
+})();
