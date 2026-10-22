@@ -391,17 +391,13 @@ img {
   font-size: 0.92rem;
 }
 
-.paper__presented-short {
+.paper__presented-short::after {
+  content: ";";
   margin-right: 0.35rem;
 }
 
 .paper__presented-more {
   display: inline;
-}
-
-.paper__presented-more[open] {
-  display: block;
-  margin-top: 0.25rem;
 }
 
 .paper__presented-more > summary {
@@ -422,6 +418,7 @@ img {
 }
 
 .paper__presented-full {
+  display: block;
   margin: 0.4rem 0 0;
   color: var(--muted);
   font-size: 0.92rem;
