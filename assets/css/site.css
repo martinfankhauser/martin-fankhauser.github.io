@@ -391,6 +391,42 @@ img {
   font-size: 0.92rem;
 }
 
+.paper__presented-short {
+  margin-right: 0.35rem;
+}
+
+.paper__presented-more {
+  display: inline;
+}
+
+.paper__presented-more[open] {
+  display: block;
+  margin-top: 0.25rem;
+}
+
+.paper__presented-more > summary {
+  cursor: pointer;
+  list-style: none;
+  display: inline;
+  font-weight: 560;
+  color: var(--accent);
+  user-select: none;
+}
+
+.paper__presented-more > summary::-webkit-details-marker {
+  display: none;
+}
+
+.paper__presented-more > summary:hover {
+  color: var(--accent-hover);
+}
+
+.paper__presented-full {
+  margin: 0.4rem 0 0;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
 .list-block {
   margin: 0 0 1.75rem;
 }
